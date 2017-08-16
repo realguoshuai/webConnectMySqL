@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #F5F5F5;
+}
+@media (min-width: 1200px)
+.menu-nav{
+	width: 1170px;
+}
+@media (min-width: 992px)
+.menu-nav{
+	width: 970px;
+}
+@media (min-width: 768px)
+.menu-nav{
+	width: 750px;
+}
+.menu .nav{
+	background-color: #ffffff;
+}
+
+.menu-nav img{
+	    width: 76px;
+}
+.menu ul li.home{
+	text-align: center;
+    /* width: 109px; */
+}
+.menu ul li {
+	width: 17.5714%;
+	text-align: center;
+	font-size: 21px;
+	color: dimgrey;
+}
+.menu ul li a{
+	color: dimgrey;
+	padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    margin-top: 2px;
+}
+.menu ul li a:hover{
+	background-color: rgb(233, 111, 108);
+	    color: aliceblue;
+}
+.exit {
+	text-align: center;
+    font-size: 15px;
+    color: dimgrey;
+    margin-left: 69px;
+    margin-top: 18px;
+    margin-right: 100px;
+}
+.exit a{
+	color:#090909;
+}
+.main{
+	padding-top: 66px;
+}
+.recommend .panel-heading{
+	background-color: #ffffff;
+}
+
+.hot{
+	color:rgb(233, 111, 108);
+	    font-size: 20px;
+}
+.hot-name{
+	color:#555;
+	    font-size: 20px;
+}
+.hot-content{
+	height: 30px;
+    line-height: 30px;  
+}
+.recommend{
+	background-color: #ffffff;
+}
+.recommend tr > td.hot-content{
+	  line-height: 30px;  
+}
+.recommend  a:hover{
+	color:#45B6F7;
+	text-decoration:none;
+}
+.recommend-main{
+	background-color: #ffffff;
+}
+.recommend-main h2{
+	    text-align: left;
+    height: 35px;
+    margin-top: -8px;
+}
+.recommend-main  a:hover{
+	color:rgb(233, 111, 108);
+	text-decoration:none;
+}
+.main-title h4{
+	height: 37px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.main-p{
+	font-size: 16px;
+}
+.info{
+	    margin-left: 128px;
+    margin-top: -105px;
+}
+.list-table tr{
+	height: 50px;
+}
+.list-table>th,.list-table >td{
+	text-align: center;
+	vertical-align: middle;
+}
